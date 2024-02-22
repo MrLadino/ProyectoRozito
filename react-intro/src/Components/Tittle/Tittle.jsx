@@ -4,7 +4,7 @@ import './Tittle.css'
 export const Tittle = () => {
   return (
    <h1>
-       Black Dragon
+       Andrés Felipe Ladino Ocampo
    </h1>
   )
 }

@@ -8,7 +8,10 @@ import { useRoutes } from 'react-router-dom'
 import { NotFound } from './Components/NotFound/NotFound'
 import Services from './Components/Pages/Services/Services'
 import { References } from './Components/Pages/References/References'
+import { Icon } from './Components/Icon/Icon'
+import { FaFacebook, FaWhatsapp , FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import './App.css'
+
 
 const AppRoutes = () =>{
   let routes = useRoutes ([
@@ -26,15 +29,21 @@ function App() {
   return (
     <>
      <Header>
-    <Tittle/>
     <Logo />
+    <Tittle/>
       <Navbar>
           <Item content="Inicio" route='/' />
-          <Item content="Acerca de mí" /> 
-          <Item content="Proyectos" />    
-          <Item content="Servicios" route='/Services' />   
-          <Item content="Referencias" route='/References' />      
+          <Item content="Perfil" /> 
+          <Item content="Proyectos" />      
+          <Item content="Referencias" route='/References' />  
+          <Item content="Experencia" route='/Services' />     
       </Navbar>
+    <Icon/>
+    <FaFacebook />
+    <FaWhatsapp />
+    <FaInstagram  />
+    <FaTwitter  />
+    <FaLinkedin />
     </Header>
     <AppRoutes />
     </>

@@ -5,7 +5,7 @@ export const DescriptionProfile = () => {
   return (
     <section>
         <h2>
-            Andrés Felipe Ladino
+            Perfil
         </h2>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus assumenda inventore ea repellendus? Pariatur, repellat alias iusto est et adipisci necessitatibus a iure ipsum eum? Maxime impedit rerum natus laborum?
