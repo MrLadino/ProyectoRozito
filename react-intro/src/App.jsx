@@ -9,8 +9,9 @@ import { NotFound } from './Components/NotFound/NotFound'
 import Services from './Components/Pages/Services/Services'
 import { References } from './Components/Pages/References/References'
 import { Icon } from './Components/Icon/Icon'
-import { FaFacebook, FaWhatsapp , FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp , FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
 import './App.css'
+
 
 
 const AppRoutes = () =>{
@@ -39,11 +40,13 @@ function App() {
           <Item content="Experencia" route='/Services' />     
       </Navbar>
     <Icon/>
+    <div className='Networks'>
     <FaFacebook />
     <FaWhatsapp />
     <FaInstagram  />
     <FaTwitter  />
     <FaLinkedin />
+    </div>
     </Header>
     <AppRoutes />
     </>

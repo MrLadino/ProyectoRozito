@@ -1,9 +1,11 @@
 import React from 'react'
+import profile from '../../assets/sena.jpg'
 import './DescriptionProfile.css'
 
 export const DescriptionProfile = () => {
   return (
     <section>
+        <img src={profile} alt="Profile" />
         <h2>
             Perfil
         </h2>
