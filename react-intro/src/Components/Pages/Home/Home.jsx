@@ -9,6 +9,7 @@ export const Home = () => {
     <>
     <main>
       <DescriptionProfile/>
+      <DescriptionProfile tittle="Proyectos"/>
     </main>
     </>
   )

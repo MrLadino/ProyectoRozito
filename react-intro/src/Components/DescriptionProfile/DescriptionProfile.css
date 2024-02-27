@@ -1,19 +1,27 @@
 
 section{
     margin-left: 400px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    padding: 40px;
+    
 }
 
 h2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     font-size: 40px;
-    color: rgb(0, 0, 0);
-    border-bottom: black solid 2px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
 }
 
 p{
     font-size: 20px;
-    color: rgb(0, 7, 14);
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
+
+img{
+    width: 9rem;
+    height: 9rem;
+}
+
