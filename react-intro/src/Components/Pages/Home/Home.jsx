@@ -1,5 +1,10 @@
 import React from 'react'
 import {DescriptionProfile} from '../../DescriptionProfile/DescriptionProfile'
+import { Boxs } from '../../Boxs/Boxs'
+import { CardsReferences } from '../../CardsReferences/CardsReferences'
+import { Progreso } from '../../Progreso/Progreso'
+
+
 
 
 
@@ -9,7 +14,9 @@ export const Home = () => {
     <>
     <main>
       <DescriptionProfile/>
-      <DescriptionProfile tittle="Proyectos"/>
+      <Boxs/>
+      <CardsReferences/>
+      <Progreso/>
     </main>
     </>
   )

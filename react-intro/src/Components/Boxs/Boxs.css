@@ -1,0 +1,55 @@
+
+section{
+    margin-left: 400px;
+    padding: 40px;
+}
+
+.cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 70px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.BigBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cajita{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #39a900;
+    margin:30px;
+    border-radius: 8%;
+}
+
+.boxita{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 14rem;
+    height: 15rem;
+    border-radius: 8%;
+}
+.cajitica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+}
+
+.parr{
+    font-size: 18px;
+    color: white;
+}

@@ -5,11 +5,11 @@ section{
     
 }
 
-h2{
+.cosito1{
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 40px;
+    font-size: 70px;
     color: #4b4d4a;
     border-bottom: #c1ff95 10px solid;
 }

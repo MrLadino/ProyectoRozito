@@ -1,17 +1,14 @@
 import React from 'react'
-import profile from '../../assets/sena.jpg'
+import profile from '../../assets/sena2.jpg.png'
 import './DescriptionProfile.css'
-
 export const DescriptionProfile = () => {
   return (
     <section>
         
-        <h2>
+        <h2 className='cosito1'>
             <img className='Loguito' src={profile} alt="Profile" />
-            Perfil
-            
+            PERFIL
         </h2>
-        <span></span>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus assumenda inventore ea repellendus? Pariatur, repellat alias iusto est et adipisci necessitatibus a iure ipsum eum? Maxime impedit rerum natus laborum?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laboriosam quisquam vero nesciunt doloribus temporibus placeat esse nostrum, nemo perspiciatis consectetur quod excepturi, eum voluptatum tempore minima quam repellendus voluptatibus.
@@ -21,4 +18,4 @@ export const DescriptionProfile = () => {
   )
 }
 
-export default DescriptionProfile
+

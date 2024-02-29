@@ -1,0 +1,36 @@
+.Boxmax{
+    margin-left:400px;
+    padding: 40px;
+}
+
+
+
+.cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 70px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.boxmin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.boxminn{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+    font-size: 30px;
+    margin: 10px;
+}
+

@@ -1,0 +1,22 @@
+.End{
+    margin-left:400px;
+    padding: 40px;
+}
+
+.Endd{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.IconEnd{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+
+progress{
+    margin: 90px;
+}

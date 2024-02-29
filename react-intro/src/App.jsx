@@ -6,8 +6,8 @@ import { Navbar } from './Components/Navbar/Navbar'
 import {Tittle} from './Components/Tittle/Tittle'
 import { useRoutes } from 'react-router-dom'
 import { NotFound } from './Components/NotFound/NotFound'
-import Services from './Components/Pages/Services/Services'
-import { References } from './Components/Pages/References/References'
+
+
 import { Icon } from './Components/Icon/Icon'
 import { FaFacebook, FaWhatsapp , FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
 import './App.css'
@@ -17,8 +17,6 @@ import './App.css'
 const AppRoutes = () =>{
   let routes = useRoutes ([
     { path:'/', element: <Home />},
-    { path:'/services', element: <Services />},
-    { path:'/references', element: <References />},
     { path:'*', element: <NotFound />},
   ])
   return routes
@@ -36,8 +34,8 @@ function App() {
           <Item content="Inicio" route='/' />
           <Item content="Perfil" /> 
           <Item content="Proyectos" />      
-          <Item content="Referencias" route='/References' />  
-          <Item content="Experencia" route='/Services' />     
+          <Item content="Referencias" route='/' />  
+          <Item content="Experencia" route='/' />     
       </Navbar>
     <Icon/>
     <div className='Networks'>
