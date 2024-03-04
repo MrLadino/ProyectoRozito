@@ -13,17 +13,28 @@ export const Progreso = () => {
         </h2>
         
         <div className='Endd'>
-            <img className='IconEnd' src={iconEnd} alt="IconEnd" />
-            <img className='IconEnd' src={iconEnd} alt="IconEnd" />
-            <img className='IconEnd' src={iconEnd} alt="IconEnd" />
-            <img className='IconEnd' src={iconEnd} alt="IconEnd" />
-            <div className='barras'>
-              <progress max={100} value={50}></progress>
-              <progress max={100} value={40}></progress>
-              <progress max={100} value={60}></progress>
-              <progress max={100} value={70}></progress>
-            </div>
-        </div>
+              <div className='finalBox'>
+                <img className='IconEnd' src={iconEnd} alt="IconEnd" />
+                <progress max={100} value={50}></progress>
+              </div>
+              <div className='finalBox'>
+                <img className='IconEnd' src={iconEnd} alt="IconEnd" />
+                <progress max={100} value={40}></progress>
+              </div>
+              <div className='finalBox'>
+                <img className='IconEnd' src={iconEnd} alt="IconEnd" />
+                <progress max={100} value={60}></progress>
+              </div>
+              <div className='finalBox'>
+                <img className='IconEnd' src={iconEnd} alt="IconEnd" />
+                <progress max={100} value={70}></progress>
+              </div>
+          </div>
+           
+            
+           
+           
+         
     </div>
   )
 }

@@ -3,9 +3,9 @@ import './Tittle.css'
 
 export const Tittle = () => {
   return (
-   <h1>
-       Andrés Felipe Ladino Ocampo
-   </h1>
+        <h1>
+            Andrés Felipe Ladino Ocampo
+        </h1>
   )
 }
 

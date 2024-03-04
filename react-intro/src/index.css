@@ -18,13 +18,1165 @@ main{
 }
 
 .Networks{
-  width: 300px;
+  width: 250px;
   height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
 }
 
+@media only screen and (min-width: 1280px) {
+  
+  
+  h1{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 20vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+  .boxminn{
+    margin-top: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    border: rgb(87, 83, 83) 5px solid;
+  }
+  
+  h4{
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+  section{
+      margin-left: 300px;
+      padding: 40px;
+  }
+
+  .End{
+    margin-left:300px;
+    padding: 40px;
+  }
+
+  .Boxmax{
+    margin-left:300px;
+    padding: 40px;
+  }
+
+  .Networks{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  
+
+}
+
+@media only screen and (max-width: 1279px) {
+
+  h1{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+  
+  h4{
+    font-size: 10px;
+    margin: 10px;
+}
+
+  
+  section{
+      margin-left: 270px;
+      padding: 40px;
+  }
+  .boxminn{
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    border: rgb(87, 83, 83) 5px solid;
+}
+  .End{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Boxmax{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Networks{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  
+}
+
+@media only screen and (min-width: 921px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+
+  h4{
+    font-size: 10px;
+    margin: 10px;
+}
+
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 20vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+
+    .Logo{
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 265px;
+      padding: 30px;
+  }
+
+  .End{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Boxmax{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Networks{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  img{
+    width: 7rem;
+    height: 7%;
+}
+
+  p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 17px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 60px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 60px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 500px;
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:20px;
+  border-radius: 8%;
+}
+
+.boxita{
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 8%;
+}
+
+
+h3{
+  font-size: 25px;
+  color: white;
+}
+
+.parr{
+  font-size: 17px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 40px;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 15px;
+  margin: 10px;
+}
+
+
+.IconEnd{
+  width: 200px;
+  height: 150px;
+  border-radius: 30%
+}
+
+}
+
+@media only screen and (max-width: 920px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 8px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 20vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 6px;
+      font-size: 25px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 265px;
+      padding: 30px;
+  }
+
+  .End{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Boxmax{
+    margin-left:270px;
+    padding: 40px;
+  }
+
+  .Networks{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  img{
+    width: 7rem;
+    height: 7%;
+}
+
+  p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 17px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 60px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 60px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 500px;
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:20px;
+  border-radius: 8%;
+}
+
+.boxita{
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 8%;
+}
+
+
+h3{
+  font-size: 25px;
+  color: white;
+}
+
+.parr{
+  font-size: 17px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 40px;
+  width: 160px;
+  height: 160px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 24px;
+  margin: 10px;
+}
+
+
+.IconEnd{
+  width: 200px;
+  height: 150px;
+  border-radius: 30%
+}
+
+
+@media only screen and (min-width: 769px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 15px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 27vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 6px;
+      font-size: 25px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 290px;
+      padding: 30px;
+  }
+
+  .End{
+    margin-left:290px;
+    padding: 30px;
+  }
+
+  .Boxmax{
+    margin-left:290px;
+    padding: 30px;
+  }
+
+  .Networks{
+    width: 190px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  img{
+    width: 4rem;
+    height: 4rem;
+}
+
+  p{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 350px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:20px;
+  border-radius: 8%;
+}
+
+.boxita{
+  margin-left: 20px;
+  margin-top: 60px;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 8%;
+}
+
+h3{
+  font-size: 17px;
+  color: white;
+}
+
+.parr{
+  font-size: 15px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 30px;
+  width: 160px;
+  height: 100px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 10px;
+  margin: 10px;
+}
+
+
+.IconEnd{
+  width: 130px;
+  height: 150px;
+  border-radius: 30%
+}
+
+progress{
+  margin: 10px;  
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 15px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 2px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 37vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 6px;
+      font-size: 25px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 290px;
+      padding: 30px;
+  }
+
+  .End{
+    margin-left:290px;
+    padding: 30px;
+  }
+
+  .Boxmax{
+    margin-left:290px;
+    padding: 30px;
+  }
+
+  .Networks{
+    width: 190px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  img{
+    width: 4rem;
+    height: 4rem;
+}
+
+  p{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 350px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:20px;
+  border-radius: 8%;
+}
+
+.boxita{
+  margin-left: 20px;
+  margin-top: 60px;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 8%;
+}
+
+h3{
+  font-size: 17px;
+  color: white;
+}
+
+.parr{
+  font-size: 15px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 30px;
+  width: 160px;
+  height: 160px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 24px;
+  margin: 10px;
+}
+
+
+.IconEnd{
+  width: 130px;
+  height: 150px;
+  border-radius: 30%
+}
+
+progress{
+  margin: 10px;  
+}
+
+}
+
+
+@media only screen and (min-width: 481px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 0px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 3px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 32vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 6px;
+      font-size: 20px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 305px;
+      padding: 10px;
+  }
+
+  .End{
+    margin-left:305px;
+    padding: 3px;
+  }
+
+  .Boxmax{
+    margin-left:305px;
+    padding: 4px;
+  }
+
+  .Networks{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  img{
+    width: 3rem;
+    height: 3rem;
+}
+
+  p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 9px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:9px;
+  border-radius: 10%;
+}
+
+.boxita{
+  margin-left: 50px;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 8%;
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+}
+
+.parr{
+  font-size: 10px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 30px;
+  width: 250px;
+  height: 100px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 14px;
+  margin: 7px;
+}
+
+
+.IconEnd{
+  width: 150px;
+  height: 100px;
+  border-radius: 30%
+}
+
+progress{
+  margin: 10px;  
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 0px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 3px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 42vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 6px;
+      font-size: 20px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      margin-left: 205px;
+      padding: 10px;
+  }
+
+  .End{
+    margin-left:205px;
+    padding: 3px;
+  }
+
+  .Boxmax{
+    margin-left:205px;
+    padding: 4px;
+  }
+
+  .Networks{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  img{
+    width: 3rem;
+    height: 3rem;
+}
+
+  p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 9px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:9px;
+  border-radius: 10%;
+}
+
+.boxita{
+  margin-left: 50px;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 8%;
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+}
+
+.parr{
+  font-size: 10px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 30px;
+  width: 160px;
+  height: 160px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 24px;
+  margin: 7px;
+}
+
+
+.IconEnd{
+  width: 200px;
+  height: 150px;
+  border-radius: 30%
+}
+
+progress{
+  margin: 12px;  
+}
+
+}
+
+
+@media only screen and (max-width: 352px) {
+
+  h1{
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(253, 253, 253);
+    border-bottom: white solid 3px;
+  }
+  
+  header{
+    position: fixed;
+      background-color: #39a900;
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Sena{
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #c1ff95;
+      text-decoration: none;
+      margin: 3px;
+      font-size: 15px;
+      text-shadow: 2px 2px 4px #adf878;
+  }
+
+    .Logo{
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+    }
+    
+  
+  section{
+      padding: 1px;
+  }
+
+  .End{
+    padding: 2px;
+  }
+
+  .Boxmax{
+    padding: 2px;
+  }
+
+  .Networks{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  img{
+    width: 2rem;
+    height: 2rem;
+}
+
+  p{
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    padding: 9px;
+  }
+
+  .cosito1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+  }
+  
+  .cosito2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    color: #4b4d4a;
+    border-bottom: #c1ff95 10px solid;
+}
+
+.cajita{
+  width: 120px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #39a900;
+  margin:4px;
+  border-radius: 10%;
+}
+
+.boxita{
+  margin-left: 40px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 8%;
+}
+
+h3{
+  font-size: 15px;
+  color: white;
+}
+
+.parr{
+  font-size: 7px;
+  color: white;
+}
+
+
+.boxminn{
+  margin-top: 10px;
+  width: 130px;
+  height: 50px;
+  border: rgb(87, 83, 83) 5px solid;
+}
+
+h4{
+  font-size: 7px;
+  margin: 10px;
+}
+
+
+.IconEnd{
+  width: 80px;
+  height: 80px;
+  border-radius: 30%
+}
+
+progress{
+  font-size: 10px;
+}
+}
+
+}

@@ -18,5 +18,11 @@
 }
 
 progress{
-    margin: 90px;
+    margin: 90px;  
+}
+
+.finalBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

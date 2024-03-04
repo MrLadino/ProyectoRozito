@@ -17,10 +17,10 @@ export const Boxs = () => {
                 <img className='boxita' src={box} alt="Box" />
                 <div className='cajitica'>
                     <h3>
-                        tittle
+                    Graphel
                     </h3>
                     <p className='parr'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum maxime nihil commodi! Quibusdam, expedita, delectus, quae fuga est omnis labore consequatur in ut necessitatibus dignissimos adipisci sint eligendi molestias.
+                        Pagina creada para practicar el tema de elementos flotantes
                     </p>
 
                     <a href="">Ir al Proyecto</a>
@@ -31,10 +31,10 @@ export const Boxs = () => {
                 <img className='boxita' src={box} alt="Box" />
                 <div className='cajitica'>
                     <h3>
-                        tittle
+                        Music
                     </h3>
                     <p className='parr'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum maxime nihil commodi! Quibusdam, expedita, delectus, quae fuga est omnis labore consequatur in ut necessitatibus dignissimos adipisci sint eligendi molestias.
+                        Pagina basica pero de encanto cuyo fin es mejorar las habilidades del tema display flex
                     </p>
 
                     <a href="">Ir al Proyecto</a>
@@ -45,10 +45,10 @@ export const Boxs = () => {
                 <img className='boxita' src={box} alt="Box" />
                 <div className='cajitica'>
                     <h3>
-                        tittle
+                        Bleux
                     </h3>
                     <p className='parr'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum maxime nihil commodi! Quibusdam, expedita, delectus, quae fuga est omnis labore consequatur in ut necessitatibus dignissimos adipisci sint eligendi molestias.
+                        Pagina de prcatica en la que desarrollamos habilidades sobre el tema de responsibidad
                     </p>
 
                     <a href="">Ir al Proyecto</a>
@@ -59,10 +59,10 @@ export const Boxs = () => {
                 <img className='boxita' src={box} alt="Box" />
                 <div className='cajitica'>
                     <h3>
-                        tittle
+                        Apptastic
                     </h3>
                     <p className='parr'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum maxime nihil commodi! Quibusdam, expedita, delectus, quae fuga est omnis labore consequatur in ut necessitatibus dignissimos adipisci sint eligendi molestias.
+                    Pagina de prcatica en la que desarrollamos habilidades sobre el tema de responsibidad y se mejora, a parte de que s eaprende a manipular elemntos mas complejos
                     </p>
 
                     <a href="">Ir al Proyecto</a>

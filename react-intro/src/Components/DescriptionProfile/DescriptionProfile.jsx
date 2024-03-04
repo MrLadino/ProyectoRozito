@@ -10,9 +10,31 @@ export const DescriptionProfile = () => {
             PERFIL
         </h2>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus assumenda inventore ea repellendus? Pariatur, repellat alias iusto est et adipisci necessitatibus a iure ipsum eum? Maxime impedit rerum natus laborum?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laboriosam quisquam vero nesciunt doloribus temporibus placeat esse nostrum, nemo perspiciatis consectetur quod excepturi, eum voluptatum tempore minima quam repellendus voluptatibus.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium eaque iure nobis nulla illum alias modi! Deleniti atque modi esse minus non, cupiditate nobis odit officia earum alias quaerat?
+          Soy un aprendiz del SENA en búsqueda de
+            oportunidades para aplicar y expandir mis
+            conocimientos en Análisis y Desarrollo de
+            Software. Mi entusiasmo por el mundo de la
+            programación se ha convertido en una
+            pasión que me impulsa a aprender de
+            forma continua y a enfrentar nuevos retos
+            con determinación.
+            Durante mi formación, he adquirido una
+            comprensión intermedia de lenguajes de
+            programación como Java, JavaScript y
+            Python. Esta base sólida me ha permitido
+            abordar proyectos prácticos y desafiantes,
+            donde he podido desarrollar y mejorar mis
+            habilidades técnicas y de resolución de
+            problemas.
+            Estoy emocionado por seguir creciendo en
+            este campo y por contribuir con mi pasión y
+            habilidades a equipos de desarrollo
+            innovadores. Mi objetivo es aprender de los
+            mejores, colaborar en proyectos
+            significativos y convertirme en un
+            profesional integral en el mundo del
+            desarrollo de software.
+
         </p>
     </section>
   )

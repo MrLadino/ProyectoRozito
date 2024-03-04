@@ -11,22 +11,12 @@ export const CardsReferences = () => {
         <div className='boxmin'>
             <div className='boxminn'>
                 <h4>
-                    Nombre: <br /> Cargo: <br /> Telefono: <br /> Email:
+                    Norman Ladino <br /> Administrador Agricola <br /> 3205133047 <br /> normanladino4@gmail.com
                 </h4>
             </div>
             <div className='boxminn'>
                 <h4>
-                    Nombre: <br /> Cargo: <br /> Telefono: <br /> Email:
-                </h4>
-            </div>
-            <div className='boxminn'>
-                <h4>
-                    Nombre: <br /> Cargo: <br /> Telefono: <br /> Email:
-                </h4>
-            </div>
-            <div className='boxminn'>
-                <h4>
-                    Nombre: <br /> Cargo: <br /> Telefono: <br /> Email:
+                    Maria Rocio Ocampo <br /> Ama de casa <br /> 3206698029 <br /> mariarocioocampo2312@gmail.com
                 </h4>
             </div>
         </div>
